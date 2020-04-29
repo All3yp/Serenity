@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F7FDCB92458D628000BDEFD /* OnBoardingPart1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FDCB82458D627000BDEFD /* OnBoardingPart1.storyboard */; };
+		0F7FDCBB2458D645000BDEFD /* OnBoardingPart2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FDCBA2458D645000BDEFD /* OnBoardingPart2.storyboard */; };
+		0F7FDCBD2458D77E000BDEFD /* OnBoardingPart3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FDCBC2458D77E000BDEFD /* OnBoardingPart3.storyboard */; };
 		CEFDC6BC24586FEF001BBA13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BB24586FEF001BBA13 /* AppDelegate.swift */; };
 		CEFDC6BE24586FEF001BBA13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BD24586FEF001BBA13 /* SceneDelegate.swift */; };
 		CEFDC6C024586FEF001BBA13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BF24586FEF001BBA13 /* ViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F7FDCB82458D627000BDEFD /* OnBoardingPart1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoardingPart1.storyboard; sourceTree = "<group>"; };
+		0F7FDCBA2458D645000BDEFD /* OnBoardingPart2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoardingPart2.storyboard; sourceTree = "<group>"; };
+		0F7FDCBC2458D77E000BDEFD /* OnBoardingPart3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoardingPart3.storyboard; sourceTree = "<group>"; };
 		CEFDC6B824586FEF001BBA13 /* Serenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFDC6BB24586FEF001BBA13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFDC6BD24586FEF001BBA13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,9 +82,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F7FDCBE2458DB45000BDEFD /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				0F7FDCBC2458D77E000BDEFD /* OnBoardingPart3.storyboard */,
+				0F7FDCBA2458D645000BDEFD /* OnBoardingPart2.storyboard */,
+				0F7FDCB82458D627000BDEFD /* OnBoardingPart1.storyboard */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
 		CEFDC6AF24586FEF001BBA13 = {
 			isa = PBXGroup;
 			children = (
+				0F7FDCBE2458DB45000BDEFD /* OnBoarding */,
 				CEFDC6BA24586FEF001BBA13 /* Serenity */,
 				CEFDC6D124586FF5001BBA13 /* SerenityTests */,
 				CEFDC6DC24586FF5001BBA13 /* SerenityUITests */,
@@ -232,9 +249,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7FDCBD2458D77E000BDEFD /* OnBoardingPart3.storyboard in Resources */,
+				0F7FDCB92458D628000BDEFD /* OnBoardingPart1.storyboard in Resources */,
 				CEFDC6C824586FF5001BBA13 /* LaunchScreen.storyboard in Resources */,
 				CEFDC6C524586FF5001BBA13 /* Assets.xcassets in Resources */,
 				CEFDC6C324586FEF001BBA13 /* Main.storyboard in Resources */,
+				0F7FDCBB2458D645000BDEFD /* OnBoardingPart2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
