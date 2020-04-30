@@ -36,6 +36,9 @@
                                 <rect key="frame" x="75" y="642.66666666666663" width="225" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="square.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="uZF-sV-p94" kind="modal" modalPresentationStyle="fullScreen" id="eGX-01-7LN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -45,6 +48,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Icq-yX-oBD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="48"/>
+        </scene>
+        <!--TabBar-->
+        <scene sceneID="utX-Pl-bNP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TabBar" id="uZF-sV-p94" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yd4-OE-UhT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="907" y="-129"/>
         </scene>
     </scenes>
     <resources>
