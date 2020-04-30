@@ -12,12 +12,17 @@
 		0F7FDCBD2458D77E000BDEFD /* OnBoardingPart3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FDCBC2458D77E000BDEFD /* OnBoardingPart3.storyboard */; };
 		CEFDC6BC24586FEF001BBA13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BB24586FEF001BBA13 /* AppDelegate.swift */; };
 		CEFDC6BE24586FEF001BBA13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BD24586FEF001BBA13 /* SceneDelegate.swift */; };
-		CEFDC6C024586FEF001BBA13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BF24586FEF001BBA13 /* ViewController.swift */; };
-		CEFDC6C324586FEF001BBA13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFDC6C124586FEF001BBA13 /* Main.storyboard */; };
+		CEFDC6C024586FEF001BBA13 /* SugestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BF24586FEF001BBA13 /* SugestaoViewController.swift */; };
+		CEFDC6C324586FEF001BBA13 /* Sugestao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFDC6C124586FEF001BBA13 /* Sugestao.storyboard */; };
 		CEFDC6C524586FF5001BBA13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFDC6C424586FF5001BBA13 /* Assets.xcassets */; };
 		CEFDC6C824586FF5001BBA13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFDC6C624586FF5001BBA13 /* LaunchScreen.storyboard */; };
 		CEFDC6D324586FF5001BBA13 /* SerenityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6D224586FF5001BBA13 /* SerenityTests.swift */; };
 		CEFDC6DE24586FF5001BBA13 /* SerenityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6DD24586FF5001BBA13 /* SerenityUITests.swift */; };
+		CEFDC6F0245A10FA001BBA13 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFDC6EF245A10FA001BBA13 /* TabBar.storyboard */; };
+		CEFDC6F2245A1715001BBA13 /* Exercicios.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFDC6F1245A1715001BBA13 /* Exercicios.storyboard */; };
+		CEFDC6F4245A1722001BBA13 /* Musica.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFDC6F3245A1722001BBA13 /* Musica.storyboard */; };
+		CEFDC6F6245A1D3B001BBA13 /* ExerciciosViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6F5245A1D3B001BBA13 /* ExerciciosViewControler.swift */; };
+		CEFDC6F8245A1DA2001BBA13 /* MusicaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6F7245A1DA2001BBA13 /* MusicaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +49,8 @@
 		CEFDC6B824586FEF001BBA13 /* Serenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFDC6BB24586FEF001BBA13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFDC6BD24586FEF001BBA13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEFDC6BF24586FEF001BBA13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEFDC6C224586FEF001BBA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFDC6BF24586FEF001BBA13 /* SugestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugestaoViewController.swift; sourceTree = "<group>"; };
+		CEFDC6C224586FEF001BBA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Sugestao.storyboard; sourceTree = "<group>"; };
 		CEFDC6C424586FF5001BBA13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFDC6C724586FF5001BBA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEFDC6C924586FF5001BBA13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +60,11 @@
 		CEFDC6D924586FF5001BBA13 /* SerenityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFDC6DD24586FF5001BBA13 /* SerenityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenityUITests.swift; sourceTree = "<group>"; };
 		CEFDC6DF24586FF5001BBA13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFDC6EF245A10FA001BBA13 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		CEFDC6F1245A1715001BBA13 /* Exercicios.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exercicios.storyboard; sourceTree = "<group>"; };
+		CEFDC6F3245A1722001BBA13 /* Musica.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Musica.storyboard; sourceTree = "<group>"; };
+		CEFDC6F5245A1D3B001BBA13 /* ExerciciosViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciciosViewControler.swift; sourceTree = "<group>"; };
+		CEFDC6F7245A1DA2001BBA13 /* MusicaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +105,6 @@
 		CEFDC6AF24586FEF001BBA13 = {
 			isa = PBXGroup;
 			children = (
-				0F7FDCBE2458DB45000BDEFD /* OnBoarding */,
 				CEFDC6BA24586FEF001BBA13 /* Serenity */,
 				CEFDC6D124586FF5001BBA13 /* SerenityTests */,
 				CEFDC6DC24586FF5001BBA13 /* SerenityUITests */,
@@ -118,10 +127,9 @@
 			children = (
 				CEFDC6BB24586FEF001BBA13 /* AppDelegate.swift */,
 				CEFDC6BD24586FEF001BBA13 /* SceneDelegate.swift */,
-				CEFDC6BF24586FEF001BBA13 /* ViewController.swift */,
-				CEFDC6C124586FEF001BBA13 /* Main.storyboard */,
-				CEFDC6C424586FF5001BBA13 /* Assets.xcassets */,
-				CEFDC6C624586FF5001BBA13 /* LaunchScreen.storyboard */,
+				CEFDC6EE2459B24D001BBA13 /* Model */,
+				CEFDC6EC2459B1F1001BBA13 /* Controller */,
+				CEFDC6ED2459B223001BBA13 /* View */,
 				CEFDC6C924586FF5001BBA13 /* Info.plist */,
 			);
 			path = Serenity;
@@ -143,6 +151,37 @@
 				CEFDC6DF24586FF5001BBA13 /* Info.plist */,
 			);
 			path = SerenityUITests;
+			sourceTree = "<group>";
+		};
+		CEFDC6EC2459B1F1001BBA13 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEFDC6BF24586FEF001BBA13 /* SugestaoViewController.swift */,
+				CEFDC6F5245A1D3B001BBA13 /* ExerciciosViewControler.swift */,
+				CEFDC6F7245A1DA2001BBA13 /* MusicaViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEFDC6ED2459B223001BBA13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F7FDCBE2458DB45000BDEFD /* OnBoarding */,
+				CEFDC6C124586FEF001BBA13 /* Sugestao.storyboard */,
+				CEFDC6C424586FF5001BBA13 /* Assets.xcassets */,
+				CEFDC6C624586FF5001BBA13 /* LaunchScreen.storyboard */,
+				CEFDC6EF245A10FA001BBA13 /* TabBar.storyboard */,
+				CEFDC6F1245A1715001BBA13 /* Exercicios.storyboard */,
+				CEFDC6F3245A1722001BBA13 /* Musica.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEFDC6EE2459B24D001BBA13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,9 +290,12 @@
 			files = (
 				0F7FDCBD2458D77E000BDEFD /* OnBoardingPart3.storyboard in Resources */,
 				0F7FDCB92458D628000BDEFD /* OnBoardingPart1.storyboard in Resources */,
+				CEFDC6F2245A1715001BBA13 /* Exercicios.storyboard in Resources */,
 				CEFDC6C824586FF5001BBA13 /* LaunchScreen.storyboard in Resources */,
 				CEFDC6C524586FF5001BBA13 /* Assets.xcassets in Resources */,
-				CEFDC6C324586FEF001BBA13 /* Main.storyboard in Resources */,
+				CEFDC6F4245A1722001BBA13 /* Musica.storyboard in Resources */,
+				CEFDC6C324586FEF001BBA13 /* Sugestao.storyboard in Resources */,
+				CEFDC6F0245A10FA001BBA13 /* TabBar.storyboard in Resources */,
 				0F7FDCBB2458D645000BDEFD /* OnBoardingPart2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +321,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFDC6C024586FEF001BBA13 /* ViewController.swift in Sources */,
+				CEFDC6F8245A1DA2001BBA13 /* MusicaViewController.swift in Sources */,
+				CEFDC6C024586FEF001BBA13 /* SugestaoViewController.swift in Sources */,
+				CEFDC6F6245A1D3B001BBA13 /* ExerciciosViewControler.swift in Sources */,
 				CEFDC6BC24586FEF001BBA13 /* AppDelegate.swift in Sources */,
 				CEFDC6BE24586FEF001BBA13 /* SceneDelegate.swift in Sources */,
 			);
@@ -317,12 +361,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CEFDC6C124586FEF001BBA13 /* Main.storyboard */ = {
+		CEFDC6C124586FEF001BBA13 /* Sugestao.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CEFDC6C224586FEF001BBA13 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Sugestao.storyboard;
 			sourceTree = "<group>";
 		};
 		CEFDC6C624586FF5001BBA13 /* LaunchScreen.storyboard */ = {

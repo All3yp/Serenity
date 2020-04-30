@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SugestaoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+        print("Sugestões View Controller")
 
+    }
 
 }
 
