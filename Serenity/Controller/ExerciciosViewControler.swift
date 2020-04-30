@@ -2,8 +2,8 @@
 //  ExerciciosViewControler.swift
 //  Serenity
 //
-//  Created by Noyalle Pereira on 4/29/20.
-//  Copyright © 2020 Noyalle Pereira. All rights reserved.
+//  Created by Alley Pereira on 4/29/20.
+//  Copyright © 2020 Alley Pereira. All rights reserved.
 //
 
 import UIKit

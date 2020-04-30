@@ -2,8 +2,8 @@
 //  SerenityUITests.swift
 //  SerenityUITests
 //
-//  Created by Noyalle Pereira on 4/28/20.
-//  Copyright © 2020 Noyalle Pereira. All rights reserved.
+//  Created by Alley Pereira on 4/28/20.
+//  Copyright © 2020 Alley Pereira. All rights reserved.
 //
 
 import XCTest
