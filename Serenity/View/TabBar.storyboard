@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7uI-G0-Rvi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7uI-G0-Rvi">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,6 +25,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9e1-is-8uY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1154" y="-464"/>
+        </scene>
+        <!--On Boarding View Controller-->
+        <scene sceneID="O5v-Yz-cM7">
+            <objects>
+                <viewController storyboardIdentifier="welcome" id="Vov-D2-ice" customClass="OnBoardingViewController" customModule="Serenity" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aa6-lU-JdH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uQB-LP-yIC">
+                                <rect key="frame" x="158" y="431" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CfN-RP-KPh">
+                                <rect key="frame" x="158" y="431" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DjR-Iq-UhK">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7td-5S-JH2" firstAttribute="trailing" secondItem="DjR-Iq-UhK" secondAttribute="trailing" id="2KG-Tg-UOo"/>
+                            <constraint firstItem="DjR-Iq-UhK" firstAttribute="top" secondItem="7td-5S-JH2" secondAttribute="top" id="L01-Ka-PmN"/>
+                            <constraint firstItem="7td-5S-JH2" firstAttribute="bottom" secondItem="DjR-Iq-UhK" secondAttribute="bottom" id="sJd-6N-04e"/>
+                            <constraint firstItem="DjR-Iq-UhK" firstAttribute="leading" secondItem="7td-5S-JH2" secondAttribute="leading" id="y3f-Jw-14M"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7td-5S-JH2"/>
+                    </view>
+                    <connections>
+                        <outlet property="TextFil" destination="uQB-LP-yIC" id="Tvp-hM-S2u"/>
+                        <outlet property="TextFil2" destination="CfN-RP-KPh" id="tqH-NA-fuH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jWG-Si-xn3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-103" y="-462"/>
         </scene>
         <!--Sugestao-->
         <scene sceneID="xEn-Rd-MBB">
