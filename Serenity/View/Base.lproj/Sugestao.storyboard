@@ -91,7 +91,11 @@
                     <tabBarItem key="tabBarItem" title="Sugestões" image="check" id="Bav-E8-MQr"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Sugestões" id="C6o-ck-g8N">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="person.crop.circle" catalog="system" id="qLn-tR-jdA"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="person.crop.circle" catalog="system" id="qLn-tR-jdA">
+                            <connections>
+                                <segue destination="143-EH-NbS" kind="presentation" id="ial-ZJ-WXU"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -103,6 +107,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1044.9275362318842" y="98.4375"/>
+        </scene>
+        <!--Perfil-->
+        <scene sceneID="t0J-QO-wNT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Perfil" id="143-EH-NbS" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="UtH-Pl-hnf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gqY-Tf-hzO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1556" y="5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jtJ-Tb-BFQ">

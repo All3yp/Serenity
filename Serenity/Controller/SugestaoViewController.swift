@@ -40,6 +40,9 @@ class SugestaoViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    
+        
         emergencyButton.layer.cornerRadius = 11
         
         collectSetView.delegate = self
@@ -51,10 +54,11 @@ class SugestaoViewController: UIViewController, UICollectionViewDelegate, UIColl
         welcomeLabel.text = salutation
         
         /// Falta colocar a string input do username do Magno
-        
-        
+                
         
     }
+    
+   
     
 }
 
