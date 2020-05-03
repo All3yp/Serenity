@@ -17,7 +17,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="zCj-cW-cZU"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Exercicio" image="square.and.arrow.up" catalog="system" selectedImage="square.and.arrow.up.fill" id="0Tf-mw-7aI"/>
+                    <tabBarItem key="tabBarItem" title="Exercícios" image="meditationIcon" id="0Tf-mw-7aI"/>
                     <navigationItem key="navigationItem" title="Exercicios" id="3Sv-do-KcO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -45,7 +45,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
-        <image name="square.and.arrow.up.fill" catalog="system" width="56" height="64"/>
+        <image name="meditationIcon" width="32" height="32"/>
     </resources>
+    <color key="tintColor" name="AzulClaro"/>
 </document>

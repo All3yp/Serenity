@@ -8,32 +8,51 @@
 
 import UIKit
 
-class SugestaoViewController: UIViewController {
+class SugestaoViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    
+    let array = ["Exercicios" , "Relax"]
+    
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        
+        return UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 0)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+        return array.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "sugestaoCell", for: indexPath) as! MyCollectionViewCell
+        
+        cell.imageView.image = UIImage.init(named: array[indexPath.row])
+        return cell
+    }
+    
+    
+    @IBOutlet weak var welcomeLabel: UILabel!
+    
+    @IBOutlet weak var emergencyButton: UIButton!
+    
+    @IBOutlet weak var collectSetView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        emergencyButton.layer.cornerRadius = 11
         
-        var salutation = String()
-        let date: Date = Date()
-        let calendar: Calendar = Calendar.current
-        let hour: Int = calendar.component(.hour, from: date)
+        collectSetView.delegate = self
+        collectSetView.dataSource = self
+      
+        let boasVindas = Hour()
+        let salutation = boasVindas.welcome()
         
-        let bonsoir = 3
-        let afternoon = 12
-        let night = 18
+        welcomeLabel.text = salutation
         
-        print("Hour: \(hour)")
-        if bonsoir <= hour, hour < afternoon {
-            salutation = "Bom dia"
-            
-        } else if afternoon <= hour, hour < night {
-            salutation = "Boa tarde"
-            
-        } else {
-            salutation = "Boa noite"
-        }
+        /// Falta colocar a string input do username do Magno
         
-        print(salutation)
+        
         
     }
     

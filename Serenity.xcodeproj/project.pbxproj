@@ -11,6 +11,8 @@
 		0F7FDCBB2458D645000BDEFD /* OnBoardingPart2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FDCBA2458D645000BDEFD /* OnBoardingPart2.storyboard */; };
 		0F7FDCBD2458D77E000BDEFD /* OnBoardingPart3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FDCBC2458D77E000BDEFD /* OnBoardingPart3.storyboard */; };
 		0F7FDCCA245A028B000BDEFD /* OnBoardingPart4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FDCC9245A028B000BDEFD /* OnBoardingPart4.storyboard */; };
+		CE9716FD245E1D580090AF15 /* Hour.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9716FC245E1D580090AF15 /* Hour.swift */; };
+		CE97171F245E65700090AF15 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97171E245E65700090AF15 /* MyCollectionViewCell.swift */; };
 		CEFDC6BC24586FEF001BBA13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BB24586FEF001BBA13 /* AppDelegate.swift */; };
 		CEFDC6BE24586FEF001BBA13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BD24586FEF001BBA13 /* SceneDelegate.swift */; };
 		CEFDC6C024586FEF001BBA13 /* SugestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BF24586FEF001BBA13 /* SugestaoViewController.swift */; };
@@ -48,6 +50,8 @@
 		0F7FDCBA2458D645000BDEFD /* OnBoardingPart2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoardingPart2.storyboard; sourceTree = "<group>"; };
 		0F7FDCBC2458D77E000BDEFD /* OnBoardingPart3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoardingPart3.storyboard; sourceTree = "<group>"; };
 		0F7FDCC9245A028B000BDEFD /* OnBoardingPart4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoardingPart4.storyboard; sourceTree = "<group>"; };
+		CE9716FC245E1D580090AF15 /* Hour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hour.swift; sourceTree = "<group>"; };
+		CE97171E245E65700090AF15 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		CEFDC6B824586FEF001BBA13 /* Serenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFDC6BB24586FEF001BBA13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFDC6BD24586FEF001BBA13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				CEFDC6BF24586FEF001BBA13 /* SugestaoViewController.swift */,
+				CE97171E245E65700090AF15 /* MyCollectionViewCell.swift */,
+				CE9716FC245E1D580090AF15 /* Hour.swift */,
 				CEFDC6F5245A1D3B001BBA13 /* ExerciciosViewControler.swift */,
 				CEFDC6F7245A1DA2001BBA13 /* MusicaViewController.swift */,
 			);
@@ -326,8 +332,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEFDC6F8245A1DA2001BBA13 /* MusicaViewController.swift in Sources */,
+				CE97171F245E65700090AF15 /* MyCollectionViewCell.swift in Sources */,
 				CEFDC6C024586FEF001BBA13 /* SugestaoViewController.swift in Sources */,
 				CEFDC6F6245A1D3B001BBA13 /* ExerciciosViewControler.swift in Sources */,
+				CE9716FD245E1D580090AF15 /* Hour.swift in Sources */,
 				CEFDC6BC24586FEF001BBA13 /* AppDelegate.swift in Sources */,
 				CEFDC6BE24586FEF001BBA13 /* SceneDelegate.swift in Sources */,
 			);
