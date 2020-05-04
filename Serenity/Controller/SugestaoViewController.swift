@@ -49,17 +49,18 @@ class SugestaoViewController: UIViewController, UICollectionViewDelegate, UIColl
         collectSetView.delegate = self
         collectSetView.dataSource = self
       
-        let boasVindas = Hour()
-        let salutation = boasVindas.welcome()
-        
-        welcomeLabel.text = salutation
-        
-        /// Falta colocar a string input do username do Magno
-                
+
         
     }
     
-   
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        let boasVindas = Hour()
+        let salutation = boasVindas.welcome()
+        
+        welcomeLabel.text = "\(salutation), \(dados.string(forKey: "Nome")!)"
+    }
     
 }
 

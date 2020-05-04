@@ -28,9 +28,25 @@ class PerfilViewController: UIViewController {
     
     
     @IBAction func saveButton(_ sender: UIBarButtonItem) {
-        //pegar dados que estao no textField que tem o nome e salvar numa variavel
         
-        //pegar dados que estao no textField que tem o contato de emergencia e salvar numa variavel
+        dados.set(textFieldName.text, forKey: "Nome")
+        dados.set(textFieldEmergency.text, forKey: "Número")
+        
+        let callingName =  dados.string(forKey: "Nome")
+        let callingNumber = dados.string(forKey: "Número")
+            
+        print(callingName!)
+        print(callingNumber!)
+        
+        self.dismiss(animated: true, completion: nil)
+        
+        // Acessando a view controller anterior pq eu nao sei delegate :c
+        let controllerAnterior: UITabBarController? = self.navigationController?.presentingViewController as? UITabBarController
+        let navigationControllerSelecionadaNaTabBar: UINavigationController? = controllerAnterior?.selectedViewController as? UINavigationController
+        let sugestaoViewController: SugestaoViewController? = navigationControllerSelecionadaNaTabBar?.viewControllers.first as? SugestaoViewController
+        
+        sugestaoViewController?.viewWillAppear(true)
+        
         
     }
     
