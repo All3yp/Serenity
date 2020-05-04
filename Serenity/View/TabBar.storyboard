@@ -10,7 +10,7 @@
         <!--Tab Bar View Controller-->
         <scene sceneID="qgJ-yd-2oI">
             <objects>
-                <tabBarController id="7uI-G0-Rvi" customClass="TabBarViewController" customModule="Serenity" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabbar" id="7uI-G0-Rvi" customClass="TabBarViewController" customModule="Serenity" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jhj-9W-dUS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -44,7 +44,7 @@
                                 <rect key="frame" x="158" y="431" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DjR-Iq-UhK">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>

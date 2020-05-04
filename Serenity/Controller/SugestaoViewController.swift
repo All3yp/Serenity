@@ -10,11 +10,11 @@ import UIKit
 
 class SugestaoViewController: UIViewController {
 
+    @IBOutlet weak var NomeSugestao: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Sugestões View Controller")
-
     }
-
 }
 

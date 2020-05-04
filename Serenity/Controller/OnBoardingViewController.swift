@@ -84,8 +84,14 @@ pratique exercícios
                 //pageView.didAddSubview(TextFil)
               //  pageView.addSubview(TextFil)
             //}
-            TextFil.frame = CGRect(x: pageView.frame.size.width*(80/375),y: pageView.frame.size.height*(400/734),width: pageView.frame.size.width*(215/375),height: 34)
-            TextFil2.frame = CGRect(x: pageView.frame.size.width*(80/375),y: pageView.frame.size.height*(400/734),width: pageView.frame.size.width*(215/375),height: 34)
+//            TextFil.frame = CGRect(x: pageView.frame.size.width*(80/375),y: pageView.frame.size.height*(400/734),width: pageView.frame.size.width*(215/375),height: 34)
+//            TextFil2.frame = CGRect(x: pageView.frame.size.width*(80/375),y: pageView.frame.size.height*(400/734),width: pageView.frame.size.width*(215/375),height: 34)
+            TextFil.translatesAutoresizingMaskIntoConstraints = false
+            let horizontalConstraint = TextFil.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+            let verticalConstraint = TextFil.centerYAnchor.constraint(equalTo: view.centerYAnchor,constant: pageView.frame.size.height*(86/734))
+            let widthConstraint = TextFil.widthAnchor.constraint(equalToConstant: 300)
+            let heightConstraint = TextFil.heightAnchor.constraint(equalToConstant: 34)
+            view.addConstraints([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
             if x == 1 {
                             //TextFil.willMove(toSuperview: pageView)
                             //pageView.addSubview(TextFil)
@@ -138,6 +144,10 @@ pratique exercícios
         guard (Button as! UIButton).tag  < 3 else {
             core.shared.setIsNotNewUser()
             dismiss(animated: true, completion: nil)
+            let vcs = storyboard?.instantiateViewController(identifier: "tabbar") as! TabBarViewController
+            vcs.viewDidLoad()
+            vcs.modalPresentationStyle = .fullScreen
+            present(vcs,animated: true)
             dados.set(TextFil2.text!, forKey:"Número")
             return
         }
