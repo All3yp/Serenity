@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class SugestaoViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     let array = ["Exercicios" , "Relax"]
