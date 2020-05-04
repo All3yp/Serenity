@@ -42,20 +42,20 @@ class SugestaoViewController: UIViewController, UICollectionViewDelegate, UIColl
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    
+        
         
         emergencyButton.layer.cornerRadius = 11
         
         collectSetView.delegate = self
         collectSetView.dataSource = self
-      
-
+        
+        
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-    
+        
         
         let boasVindas = Hour()
         let salutation = boasVindas.welcome()
@@ -68,6 +68,22 @@ class SugestaoViewController: UIViewController, UICollectionViewDelegate, UIColl
         }
         
     }
+    
+    @IBAction func callEmergency(_ sender: UIButton) {
+        
+        
+        print("tel://\(dados.string(forKey: "Número")!)")
+        
+        if let url = URL(string: "tel://\(dados.string(forKey: "Número")!)"),
+            UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            
+            print(url)
+            
+        }
+        
+    }
+    
     
 }
 
