@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
 		0F7FDCD2245CE43B000BDEFD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FDCD1245CE43B000BDEFD /* TabBarViewController.swift */; };
 		0F7FDCD4245CE4BA000BDEFD /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FDCD3245CE4BA000BDEFD /* OnBoardingViewController.swift */; };
 		CE9716FD245E1D580090AF15 /* Hour.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9716FC245E1D580090AF15 /* Hour.swift */; };
@@ -53,7 +52,6 @@
 		CE97171E245E65700090AF15 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE971720245F22FC0090AF15 /* Perfil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Perfil.storyboard; sourceTree = "<group>"; };
 		CE971722245F23520090AF15 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
-
 		CEFDC6B824586FEF001BBA13 /* Serenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFDC6BB24586FEF001BBA13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFDC6BD24586FEF001BBA13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -170,12 +168,12 @@
 			isa = PBXGroup;
 			children = (
 				CEFDC6C124586FEF001BBA13 /* Sugestao.storyboard */,
+				CE971720245F22FC0090AF15 /* Perfil.storyboard */,
 				CEFDC6C424586FF5001BBA13 /* Assets.xcassets */,
 				CEFDC6C624586FF5001BBA13 /* LaunchScreen.storyboard */,
 				CEFDC6EF245A10FA001BBA13 /* TabBar.storyboard */,
 				CEFDC6F1245A1715001BBA13 /* Exercicios.storyboard */,
 				CEFDC6F3245A1722001BBA13 /* Musica.storyboard */,
-				CE971720245F22FC0090AF15 /* Perfil.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
