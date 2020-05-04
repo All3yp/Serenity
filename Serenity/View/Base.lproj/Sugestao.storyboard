@@ -72,6 +72,9 @@
                                 <state key="normal" title="Emergência">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="callEmergency:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kvl-gZ-cxJ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sugestões para você relaxar! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cu4-dF-Kwx">
                                 <rect key="frame" x="14" y="194" width="334" height="28"/>
