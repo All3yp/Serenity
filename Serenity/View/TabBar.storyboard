@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,6 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" name="AzulClaro"/>
                     </tabBar>
                     <connections>
                         <segue destination="QDq-nI-LiR" kind="relationship" relationship="viewControllers" id="Cbe-fO-Pj1"/>
@@ -101,4 +103,10 @@
             <point key="canvasLocation" x="-660" y="-48"/>
         </scene>
     </scenes>
+    <color key="tintColor" name="AzulClaro"/>
+    <resources>
+        <namedColor name="AzulClaro">
+            <color red="0.34099999070167542" green="0.73299998044967651" blue="0.90200001001358032" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

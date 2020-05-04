@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
 		0F7FDCD2245CE43B000BDEFD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FDCD1245CE43B000BDEFD /* TabBarViewController.swift */; };
 		0F7FDCD4245CE4BA000BDEFD /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FDCD3245CE4BA000BDEFD /* OnBoardingViewController.swift */; };
+		CE9716FD245E1D580090AF15 /* Hour.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9716FC245E1D580090AF15 /* Hour.swift */; };
+		CE97171F245E65700090AF15 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97171E245E65700090AF15 /* MyCollectionViewCell.swift */; };
+		CE971721245F22FC0090AF15 /* Perfil.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE971720245F22FC0090AF15 /* Perfil.storyboard */; };
+		CE971723245F23520090AF15 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE971722245F23520090AF15 /* PerfilViewController.swift */; };
 		CEFDC6BC24586FEF001BBA13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BB24586FEF001BBA13 /* AppDelegate.swift */; };
 		CEFDC6BE24586FEF001BBA13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BD24586FEF001BBA13 /* SceneDelegate.swift */; };
 		CEFDC6C024586FEF001BBA13 /* SugestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BF24586FEF001BBA13 /* SugestaoViewController.swift */; };
@@ -44,6 +49,11 @@
 /* Begin PBXFileReference section */
 		0F7FDCD1245CE43B000BDEFD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		0F7FDCD3245CE4BA000BDEFD /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		CE9716FC245E1D580090AF15 /* Hour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hour.swift; sourceTree = "<group>"; };
+		CE97171E245E65700090AF15 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE971720245F22FC0090AF15 /* Perfil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Perfil.storyboard; sourceTree = "<group>"; };
+		CE971722245F23520090AF15 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+
 		CEFDC6B824586FEF001BBA13 /* Serenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFDC6BB24586FEF001BBA13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFDC6BD24586FEF001BBA13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,8 +157,11 @@
 				0F7FDCD1245CE43B000BDEFD /* TabBarViewController.swift */,
 				CEFDC6BF24586FEF001BBA13 /* SugestaoViewController.swift */,
 				0F7FDCD3245CE4BA000BDEFD /* OnBoardingViewController.swift */,
+				CE97171E245E65700090AF15 /* MyCollectionViewCell.swift */,
+				CE9716FC245E1D580090AF15 /* Hour.swift */,
 				CEFDC6F5245A1D3B001BBA13 /* ExerciciosViewControler.swift */,
 				CEFDC6F7245A1DA2001BBA13 /* MusicaViewController.swift */,
+				CE971722245F23520090AF15 /* PerfilViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -162,6 +175,7 @@
 				CEFDC6EF245A10FA001BBA13 /* TabBar.storyboard */,
 				CEFDC6F1245A1715001BBA13 /* Exercicios.storyboard */,
 				CEFDC6F3245A1722001BBA13 /* Musica.storyboard */,
+				CE971720245F22FC0090AF15 /* Perfil.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -277,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE971721245F22FC0090AF15 /* Perfil.storyboard in Resources */,
 				CEFDC6F2245A1715001BBA13 /* Exercicios.storyboard in Resources */,
 				CEFDC6C824586FF5001BBA13 /* LaunchScreen.storyboard in Resources */,
 				CEFDC6C524586FF5001BBA13 /* Assets.xcassets in Resources */,
@@ -309,10 +324,13 @@
 			files = (
 				0F7FDCD2245CE43B000BDEFD /* TabBarViewController.swift in Sources */,
 				CEFDC6F8245A1DA2001BBA13 /* MusicaViewController.swift in Sources */,
+				CE97171F245E65700090AF15 /* MyCollectionViewCell.swift in Sources */,
 				CEFDC6C024586FEF001BBA13 /* SugestaoViewController.swift in Sources */,
 				CEFDC6F6245A1D3B001BBA13 /* ExerciciosViewControler.swift in Sources */,
+				CE9716FD245E1D580090AF15 /* Hour.swift in Sources */,
 				CEFDC6BC24586FEF001BBA13 /* AppDelegate.swift in Sources */,
 				0F7FDCD4245CE4BA000BDEFD /* OnBoardingViewController.swift in Sources */,
+				CE971723245F23520090AF15 /* PerfilViewController.swift in Sources */,
 				CEFDC6BE24586FEF001BBA13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
