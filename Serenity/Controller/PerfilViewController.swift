@@ -28,9 +28,28 @@ class PerfilViewController: UIViewController {
     
     
     @IBAction func saveButton(_ sender: UIBarButtonItem) {
+        
+        dados.set(textFieldName.text, forKey: "Nome")
+        dados.set(textFieldEmergency.text, forKey: "Número")
+        
+        
+        let callingName =  dados.string(forKey: "Nome")
+        let callingNumber = dados.string(forKey: "Número")
+            
+            
+        print(callingName!)
+        print(callingNumber!)
+        
+        
+        
+        self.dismiss(animated: true, completion: nil)
+        
+        
+        
         //pegar dados que estao no textField que tem o nome e salvar numa variavel
         
         //pegar dados que estao no textField que tem o contato de emergencia e salvar numa variavel
+        
         
     }
     

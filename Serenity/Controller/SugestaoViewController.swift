@@ -52,9 +52,10 @@ class SugestaoViewController: UIViewController, UICollectionViewDelegate, UIColl
         let boasVindas = Hour()
         let salutation = boasVindas.welcome()
         
-        welcomeLabel.text = salutation
+        welcomeLabel.text = "\(salutation) \(dados.string(forKey: "Nome")!)"
         
-        /// Falta colocar a string input do username do Magno
+        
+        
                 
         
     }
