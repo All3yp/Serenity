@@ -17,7 +17,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ZWd-gR-uuy"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Music" image="music.house" catalog="system" selectedImage="music.house.fill" id="IMx-HS-6AH"/>
+                    <tabBarItem key="tabBarItem" title="Música" image="music-note" id="IMx-HS-6AH"/>
                     <navigationItem key="navigationItem" title="Musicas" id="cq7-tD-67U"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -45,7 +45,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="music.house" catalog="system" width="64" height="52"/>
-        <image name="music.house.fill" catalog="system" width="64" height="52"/>
+        <image name="music-note" width="32" height="32"/>
     </resources>
+    <color key="tintColor" name="AzulClaro"/>
 </document>

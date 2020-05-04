@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EaW-cY-LCI">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="5Ea-6d-5Th">
+            <objects>
+                <navigationController id="EaW-cY-LCI" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nU2-O9-YQL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fmS-6e-4wv" kind="relationship" relationship="rootViewController" id="hvl-6S-fXT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NdD-Wd-KKb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-490" y="267"/>
+        </scene>
+        <!--Perfil-->
+        <scene sceneID="GT1-A0-w7v">
+            <objects>
+                <viewController id="fmS-6e-4wv" customClass="PerfilViewController" customModule="Serenity" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j7F-Np-ywY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="novo nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HSN-Af-PAf">
+                                <rect key="frame" x="61" y="252" width="292" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="dco-aM-1fA"/>
+                                    <constraint firstAttribute="width" constant="292" id="vln-sN-f4b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seu nome:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7x-sR-yII">
+                                <rect key="frame" x="61" y="204" width="135" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="QCd-5X-q21"/>
+                                    <constraint firstAttribute="width" constant="135" id="SPf-kw-hv5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="CVV 188" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AUI-nl-BvU">
+                                <rect key="frame" x="61" y="390" width="292" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PFx-6W-7SE"/>
+                                    <constraint firstAttribute="width" constant="292" id="et5-xG-BXe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Novo contato de emergência:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HD8-na-0ac">
+                                <rect key="frame" x="61" y="342" width="255" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="255" id="6vZ-eE-iBu"/>
+                                    <constraint firstAttribute="height" constant="24" id="Oc0-Ye-ga1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="HSN-Af-PAf" firstAttribute="top" secondItem="l1w-Kg-vAo" secondAttribute="top" constant="164" id="4Gp-GS-cK8"/>
+                            <constraint firstItem="AUI-nl-BvU" firstAttribute="centerX" secondItem="l1w-Kg-vAo" secondAttribute="centerX" id="4k1-fd-nfn"/>
+                            <constraint firstItem="HD8-na-0ac" firstAttribute="leading" secondItem="AUI-nl-BvU" secondAttribute="leading" id="DfO-lr-Z9C"/>
+                            <constraint firstItem="HSN-Af-PAf" firstAttribute="top" secondItem="Q7x-sR-yII" secondAttribute="bottom" constant="24" id="Upa-Nf-1Uh"/>
+                            <constraint firstItem="AUI-nl-BvU" firstAttribute="top" secondItem="HSN-Af-PAf" secondAttribute="bottom" constant="88" id="Vuj-xK-Ocd"/>
+                            <constraint firstItem="Q7x-sR-yII" firstAttribute="leading" secondItem="HSN-Af-PAf" secondAttribute="leading" id="f9p-8N-d7U"/>
+                            <constraint firstItem="HSN-Af-PAf" firstAttribute="centerX" secondItem="l1w-Kg-vAo" secondAttribute="centerX" id="gOb-Un-uaN"/>
+                            <constraint firstItem="AUI-nl-BvU" firstAttribute="top" secondItem="HD8-na-0ac" secondAttribute="bottom" constant="24" id="uVC-6U-tGP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="l1w-Kg-vAo"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Perfil" id="0hD-vy-Xjc">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="63I-3W-J7A">
+                            <connections>
+                                <action selector="cancelButton:" destination="fmS-6e-4wv" id="BQE-zB-iMI"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="T61-Rt-q3s">
+                            <connections>
+                                <action selector="saveButton:" destination="fmS-6e-4wv" id="QU2-N0-xav"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="emergencyContact" destination="HD8-na-0ac" id="5JU-gu-4Z8"/>
+                        <outlet property="newNameUser" destination="Q7x-sR-yII" id="tUM-dy-41C"/>
+                        <outlet property="textFieldEmergency" destination="AUI-nl-BvU" id="u6t-xz-NfK"/>
+                        <outlet property="textFieldName" destination="HSN-Af-PAf" id="3K6-gL-G8Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Cs-PY-NOc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="398.55072463768118" y="265.84821428571428"/>
+        </scene>
+    </scenes>
+</document>
