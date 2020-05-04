@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="qgJ-yd-2oI">
             <objects>
-                <tabBarController id="7uI-G0-Rvi" sceneMemberID="viewController">
+                <tabBarController id="7uI-G0-Rvi" customClass="TabBarViewController" customModule="Serenity" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jhj-9W-dUS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -63,6 +63,7 @@
                     <connections>
                         <outlet property="TextFil" destination="uQB-LP-yIC" id="Tvp-hM-S2u"/>
                         <outlet property="TextFil2" destination="CfN-RP-KPh" id="tqH-NA-fuH"/>
+                        <outlet property="holderView" destination="DjR-Iq-UhK" id="iu8-0y-cP5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jWG-Si-xn3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
