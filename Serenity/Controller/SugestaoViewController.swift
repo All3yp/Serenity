@@ -55,11 +55,18 @@ class SugestaoViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+    
         
         let boasVindas = Hour()
         let salutation = boasVindas.welcome()
         
-        welcomeLabel.text = "\(salutation), \(dados.string(forKey: "Nome")!)"
+        
+        if let dadosNome = dados.string(forKey: "Nome"), dadosNome != "" {
+            welcomeLabel.text = "\(salutation), \(dadosNome)"
+        } else {
+            welcomeLabel.text = salutation
+        }
+        
     }
     
 }
