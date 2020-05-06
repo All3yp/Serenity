@@ -32,6 +32,13 @@ class SugestaoViewController: UIViewController, UICollectionViewDelegate, UIColl
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if indexPath.row == 0 {
+            self.tabBarController?.selectedIndex = 1
+        } else if indexPath.row == 1 {
+            self.tabBarController?.selectedIndex = 2
+        }
+    }
     
     @IBOutlet weak var welcomeLabel: UILabel!
     
