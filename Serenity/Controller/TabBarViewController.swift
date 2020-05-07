@@ -29,22 +29,16 @@ extension UserDefaults {
     
 }
 
-
 class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view.
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        //if core.shared.isNewUser() {
-            
-//            let vc = storyboard?.instantiateViewController(identifier: "welcome") as! OnBoardingViewController
-//            vc.modalPresentationStyle = .fullScreen
-//            present(vc, animated: true)
+
         }
     }
     /*
@@ -56,22 +50,3 @@ class TabBarViewController: UITabBarController {
         // Pass the selected object to the new view controller.
     }
     */
-
-
-
-
-//class core {
-//
-//static let shared = core()
-//
-//func isNewUser() -> Bool {
-//
-//
-//    return !UserDefaults.standard.bool(forKey: "isNewUser")
-//
-//}
-//
-//func setIsNotNewUser() {
-//    UserDefaults.standard.set(true, forKey: "isNewUser")
-//    }
-//}
