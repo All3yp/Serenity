@@ -52,11 +52,27 @@ extension MusicaViewController: UITableViewDelegate, UITableViewDataSource {
         return UIView()
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if indexPath.row == 0 {
-            self.performSegue(withIdentifier: "playsSegue", sender: nil)
+        
+        let cell = tableViewMusic.cellForRow(at: indexPath) as! CardTableViewCell
+        
+        //        if indexPath.row == 0 {
+        self.performSegue(withIdentifier: "playsSegue", sender: cell.labelCard.text )
+        //        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "playsSegue" {
+            
+            let x = segue.destination as! ListagemMusica
+            
+            if let title = sender as? String, title == "Instrumental" {
+                x.playlists = [ "Lo Fi" ,"Piano", "Violão", "Violino", "Harpa", "Classico", "Flauta" , "Synthwave", "Vaporwave","New Era"]
+                x.title = title
+            }
         }
     }
+    
+    
 }
-
 
 

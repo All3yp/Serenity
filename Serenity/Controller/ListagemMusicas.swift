@@ -14,7 +14,7 @@ class ListagemMusica: UIViewController {
     
     @IBOutlet weak var playlistTableView: UITableView!
     
-    let playlists: [String] = ["Correnteza do Rio", "Floresta Tranquila", "Campo com Pássaros", "Ondas do Mar", "Chuva", "Noite Calma", "Tarde no Parque", "Pico da Montanha"]
+    var playlists: [String] = ["Correnteza do Rio", "Floresta Tranquila", "Campo com Pássaros", "Ondas do Mar", "Chuva", "Noite Calma", "Tarde no Parque", "Pico da Montanha"]
         
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class ListagemMusica: UIViewController {
         playlistTableView.delegate = self
         playlistTableView.dataSource = self
         
-        
+        self.navigationItem.title = self.title
     }
 }
 
@@ -45,5 +45,6 @@ extension ListagemMusica: UITableViewDelegate, UITableViewDataSource {
         
         return cell
     }
+    
     
 }
