@@ -30,17 +30,26 @@
                         <viewLayoutGuide key="safeArea" id="ZWd-gR-uuy"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Música" image="music-note" id="IMx-HS-6AH"/>
-                    <navigationItem key="navigationItem" title="Musicas" id="cq7-tD-67U">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="person.crop.circle" catalog="system" id="FXK-34-Ckg"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Musicas" id="cq7-tD-67U"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableViewMusic" destination="FfU-xY-SZM" id="zbs-ur-zy0"/>
+                        <segue destination="ViS-wQ-TCN" kind="show" identifier="playsSegue" id="m3d-0j-VNU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b8Z-NV-TyI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1050.7246376811595" y="138.61607142857142"/>
+        </scene>
+        <!--ListagemMusicas-->
+        <scene sceneID="YkL-kg-Sfk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ListagemMusicas" id="ViS-wQ-TCN" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="cR5-xV-6Nl"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zhz-iX-oTy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1686" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nC8-JQ-SwE">
@@ -63,7 +72,6 @@
     </scenes>
     <resources>
         <image name="music-note" width="32" height="32"/>
-        <image name="person.crop.circle" catalog="system" width="64" height="60"/>
     </resources>
     <color key="tintColor" name="AzulClaro"/>
 </document>
