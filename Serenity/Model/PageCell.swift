@@ -124,6 +124,7 @@ class PageCell: UICollectionViewCell {
         UIView.animate(withDuration: 1) {
             self.primeiroTextFilBottomConstraint.constant = self.originalConstantBottom
             self.layoutIfNeeded()
+            self.delegate?.sendText(text: self.primeiroTextFil.text!, id: self.pageID)
         }
     }
     
