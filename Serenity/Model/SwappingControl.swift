@@ -132,7 +132,7 @@ class SwipingController: UICollectionViewController, UICollectionViewDelegateFlo
     }
     
 //    override func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
-//        <#code#>
+//        
 //    }
     override func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
         let x = targetContentOffset.pointee.x
