@@ -13,6 +13,8 @@
 		0F75ECB124630C5C002F344F /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F75ECB024630C5C002F344F /* Page.swift */; };
 		0F7FDCD2245CE43B000BDEFD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FDCD1245CE43B000BDEFD /* TabBarViewController.swift */; };
 		0F7FDCD4245CE4BA000BDEFD /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FDCD3245CE4BA000BDEFD /* OnBoardingViewController.swift */; };
+		39E230AE24632EAA00B2A8E9 /* ItemCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E230AD24632EAA00B2A8E9 /* ItemCollectionCell.xib */; };
+		39E230B224634FE500B2A8E9 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E230B124634FE500B2A8E9 /* ItemCollectionViewCell.swift */; };
 		CE9716FD245E1D580090AF15 /* Hour.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9716FC245E1D580090AF15 /* Hour.swift */; };
 		CE97171F245E65700090AF15 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97171E245E65700090AF15 /* MyCollectionViewCell.swift */; };
 		CE971721245F22FC0090AF15 /* Perfil.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE971720245F22FC0090AF15 /* Perfil.storyboard */; };
@@ -62,6 +64,8 @@
 		0F75ECB024630C5C002F344F /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		0F7FDCD1245CE43B000BDEFD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		0F7FDCD3245CE4BA000BDEFD /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		39E230AD24632EAA00B2A8E9 /* ItemCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionCell.xib; sourceTree = "<group>"; };
+		39E230B124634FE500B2A8E9 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE9716FC245E1D580090AF15 /* Hour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hour.swift; sourceTree = "<group>"; };
 		CE97171E245E65700090AF15 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE971720245F22FC0090AF15 /* Perfil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Perfil.storyboard; sourceTree = "<group>"; };
@@ -118,6 +122,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+
+		3997701124643B57004580CE /* ExerciciosCell */ = {
+			isa = PBXGroup;
+			children = (
+				39E230B124634FE500B2A8E9 /* ItemCollectionViewCell.swift */,
+				39E230AD24632EAA00B2A8E9 /* ItemCollectionCell.xib */,
+			);
+			path = ExerciciosCell;
+            sourceTree = "<group>";
+        };
+
 
 		CEBAE6FE2463982500D63ADE /* PlaylistsCell */ = {
 			isa = PBXGroup;
@@ -216,6 +231,7 @@
 		CEFDC6ED2459B223001BBA13 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3997701124643B57004580CE /* ExerciciosCell */,
 				CEFDC6C124586FEF001BBA13 /* Sugestao.storyboard */,
 				CE971720245F22FC0090AF15 /* Perfil.storyboard */,
 				CEFDC6C424586FF5001BBA13 /* Assets.xcassets */,
@@ -348,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE971721245F22FC0090AF15 /* Perfil.storyboard in Resources */,
+				39E230AE24632EAA00B2A8E9 /* ItemCollectionCell.xib in Resources */,
 				CEFDC6F2245A1715001BBA13 /* Exercicios.storyboard in Resources */,
 				CEFDC6C824586FF5001BBA13 /* LaunchScreen.storyboard in Resources */,
 				CEF946602463431600BC1D2B /* CardTableViewCell.xib in Resources */,
@@ -382,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F7FDCD2245CE43B000BDEFD /* TabBarViewController.swift in Sources */,
+				39E230B224634FE500B2A8E9 /* ItemCollectionViewCell.swift in Sources */,
 				CEF9465F2463431600BC1D2B /* CardTableViewCell.swift in Sources */,
 				CEFDC6F8245A1DA2001BBA13 /* MusicaViewController.swift in Sources */,
 				0F75ECAA24626DFF002F344F /* SwappingControl.swift in Sources */,
