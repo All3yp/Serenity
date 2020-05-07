@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F75ECAA24626DFF002F344F /* SwappingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F75ECA924626DFF002F344F /* SwappingControl.swift */; };
+		0F75ECAC2462DE98002F344F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F75ECAB2462DE98002F344F /* Router.swift */; };
+		0F75ECAF24630106002F344F /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F75ECAE24630106002F344F /* PageCell.swift */; };
+		0F75ECB124630C5C002F344F /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F75ECB024630C5C002F344F /* Page.swift */; };
 		0F7FDCD2245CE43B000BDEFD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FDCD1245CE43B000BDEFD /* TabBarViewController.swift */; };
 		0F7FDCD4245CE4BA000BDEFD /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FDCD3245CE4BA000BDEFD /* OnBoardingViewController.swift */; };
 		39E230AE24632EAA00B2A8E9 /* ItemCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E230AD24632EAA00B2A8E9 /* ItemCollectionCell.xib */; };
@@ -15,6 +19,12 @@
 		CE97171F245E65700090AF15 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97171E245E65700090AF15 /* MyCollectionViewCell.swift */; };
 		CE971721245F22FC0090AF15 /* Perfil.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE971720245F22FC0090AF15 /* Perfil.storyboard */; };
 		CE971723245F23520090AF15 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE971722245F23520090AF15 /* PerfilViewController.swift */; };
+		CEBAE6F724636C4700D63ADE /* ListagemMusicas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBAE6F624636C4700D63ADE /* ListagemMusicas.storyboard */; };
+		CEBAE6F924636C5700D63ADE /* ListagemMusicas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBAE6F824636C5700D63ADE /* ListagemMusicas.swift */; };
+		CEBAE6FC2463981900D63ADE /* PlaylistsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBAE6FA2463981900D63ADE /* PlaylistsTableViewCell.swift */; };
+		CEBAE6FD2463981900D63ADE /* PlaylistsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBAE6FB2463981900D63ADE /* PlaylistsTableViewCell.xib */; };
+		CEF9465F2463431600BC1D2B /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9465D2463431600BC1D2B /* CardTableViewCell.swift */; };
+		CEF946602463431600BC1D2B /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF9465E2463431600BC1D2B /* CardTableViewCell.xib */; };
 		CEFDC6BC24586FEF001BBA13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BB24586FEF001BBA13 /* AppDelegate.swift */; };
 		CEFDC6BE24586FEF001BBA13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BD24586FEF001BBA13 /* SceneDelegate.swift */; };
 		CEFDC6C024586FEF001BBA13 /* SugestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDC6BF24586FEF001BBA13 /* SugestaoViewController.swift */; };
@@ -48,6 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F75ECA924626DFF002F344F /* SwappingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwappingControl.swift; sourceTree = "<group>"; };
+		0F75ECAB2462DE98002F344F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0F75ECAE24630106002F344F /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		0F75ECB024630C5C002F344F /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		0F7FDCD1245CE43B000BDEFD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		0F7FDCD3245CE4BA000BDEFD /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		39E230AD24632EAA00B2A8E9 /* ItemCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionCell.xib; sourceTree = "<group>"; };
@@ -56,6 +70,12 @@
 		CE97171E245E65700090AF15 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE971720245F22FC0090AF15 /* Perfil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Perfil.storyboard; sourceTree = "<group>"; };
 		CE971722245F23520090AF15 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		CEBAE6F624636C4700D63ADE /* ListagemMusicas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListagemMusicas.storyboard; sourceTree = "<group>"; };
+		CEBAE6F824636C5700D63ADE /* ListagemMusicas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListagemMusicas.swift; sourceTree = "<group>"; };
+		CEBAE6FA2463981900D63ADE /* PlaylistsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsTableViewCell.swift; sourceTree = "<group>"; };
+		CEBAE6FB2463981900D63ADE /* PlaylistsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistsTableViewCell.xib; sourceTree = "<group>"; };
+		CEF9465D2463431600BC1D2B /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		CEF9465E2463431600BC1D2B /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
 		CEFDC6B824586FEF001BBA13 /* Serenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFDC6BB24586FEF001BBA13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFDC6BD24586FEF001BBA13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +122,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+
 		3997701124643B57004580CE /* ExerciciosCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +130,35 @@
 				39E230AD24632EAA00B2A8E9 /* ItemCollectionCell.xib */,
 			);
 			path = ExerciciosCell;
+            sourceTree = "<group>";
+        };
+
+
+		CEBAE6FE2463982500D63ADE /* PlaylistsCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEBAE6FA2463981900D63ADE /* PlaylistsTableViewCell.swift */,
+				CEBAE6FB2463981900D63ADE /* PlaylistsTableViewCell.xib */,
+			);
+			path = PlaylistsCell;
+			sourceTree = "<group>";
+		};
+		CEF946612463432400BC1D2B /* CardsTableMusic */ = {
+			isa = PBXGroup;
+			children = (
+				CEF9465D2463431600BC1D2B /* CardTableViewCell.swift */,
+				CEF9465E2463431600BC1D2B /* CardTableViewCell.xib */,
+			);
+			path = CardsTableMusic;
+			sourceTree = "<group>";
+		};
+
+		0F75ECAD2462DEA6002F344F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0F75ECAB2462DE98002F344F /* Router.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		CEFDC6AF24586FEF001BBA13 = {
@@ -167,12 +217,13 @@
 			children = (
 				0F7FDCD1245CE43B000BDEFD /* TabBarViewController.swift */,
 				CEFDC6BF24586FEF001BBA13 /* SugestaoViewController.swift */,
-				0F7FDCD3245CE4BA000BDEFD /* OnBoardingViewController.swift */,
-				CE97171E245E65700090AF15 /* MyCollectionViewCell.swift */,
 				CE9716FC245E1D580090AF15 /* Hour.swift */,
+				CE97171E245E65700090AF15 /* MyCollectionViewCell.swift */,
+				0F7FDCD3245CE4BA000BDEFD /* OnBoardingViewController.swift */,
 				CEFDC6F5245A1D3B001BBA13 /* ExerciciosViewControler.swift */,
 				CEFDC6F7245A1DA2001BBA13 /* MusicaViewController.swift */,
 				CE971722245F23520090AF15 /* PerfilViewController.swift */,
+				CEBAE6F824636C5700D63ADE /* ListagemMusicas.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,8 +237,11 @@
 				CEFDC6C424586FF5001BBA13 /* Assets.xcassets */,
 				CEFDC6C624586FF5001BBA13 /* LaunchScreen.storyboard */,
 				CEFDC6EF245A10FA001BBA13 /* TabBar.storyboard */,
+				CEBAE6F624636C4700D63ADE /* ListagemMusicas.storyboard */,
 				CEFDC6F1245A1715001BBA13 /* Exercicios.storyboard */,
 				CEFDC6F3245A1722001BBA13 /* Musica.storyboard */,
+				CEF946612463432400BC1D2B /* CardsTableMusic */,
+				CEBAE6FE2463982500D63ADE /* PlaylistsCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,6 +249,12 @@
 		CEFDC6EE2459B24D001BBA13 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0F75ECAD2462DEA6002F344F /* Shared */,
+				0F7FDCD3245CE4BA000BDEFD /* OnBoardingViewController.swift */,
+				0F75ECA924626DFF002F344F /* SwappingControl.swift */,
+				CE9716FC245E1D580090AF15 /* Hour.swift */,
+				0F75ECAE24630106002F344F /* PageCell.swift */,
+				0F75ECB024630C5C002F344F /* Page.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -307,7 +367,10 @@
 				39E230AE24632EAA00B2A8E9 /* ItemCollectionCell.xib in Resources */,
 				CEFDC6F2245A1715001BBA13 /* Exercicios.storyboard in Resources */,
 				CEFDC6C824586FF5001BBA13 /* LaunchScreen.storyboard in Resources */,
+				CEF946602463431600BC1D2B /* CardTableViewCell.xib in Resources */,
 				CEFDC6C524586FF5001BBA13 /* Assets.xcassets in Resources */,
+				CEBAE6FD2463981900D63ADE /* PlaylistsTableViewCell.xib in Resources */,
+				CEBAE6F724636C4700D63ADE /* ListagemMusicas.storyboard in Resources */,
 				CEFDC6F4245A1722001BBA13 /* Musica.storyboard in Resources */,
 				CEFDC6C324586FEF001BBA13 /* Sugestao.storyboard in Resources */,
 				CEFDC6F0245A10FA001BBA13 /* TabBar.storyboard in Resources */,
@@ -337,11 +400,18 @@
 			files = (
 				0F7FDCD2245CE43B000BDEFD /* TabBarViewController.swift in Sources */,
 				39E230B224634FE500B2A8E9 /* ItemCollectionViewCell.swift in Sources */,
+				CEF9465F2463431600BC1D2B /* CardTableViewCell.swift in Sources */,
 				CEFDC6F8245A1DA2001BBA13 /* MusicaViewController.swift in Sources */,
+				0F75ECAA24626DFF002F344F /* SwappingControl.swift in Sources */,
 				CE97171F245E65700090AF15 /* MyCollectionViewCell.swift in Sources */,
+				CEBAE6FC2463981900D63ADE /* PlaylistsTableViewCell.swift in Sources */,
 				CEFDC6C024586FEF001BBA13 /* SugestaoViewController.swift in Sources */,
 				CEFDC6F6245A1D3B001BBA13 /* ExerciciosViewControler.swift in Sources */,
+				CEBAE6F924636C5700D63ADE /* ListagemMusicas.swift in Sources */,
+				0F75ECB124630C5C002F344F /* Page.swift in Sources */,
+				0F75ECAC2462DE98002F344F /* Router.swift in Sources */,
 				CE9716FD245E1D580090AF15 /* Hour.swift in Sources */,
+				0F75ECAF24630106002F344F /* PageCell.swift in Sources */,
 				CEFDC6BC24586FEF001BBA13 /* AppDelegate.swift in Sources */,
 				0F7FDCD4245CE4BA000BDEFD /* OnBoardingViewController.swift in Sources */,
 				CE971723245F23520090AF15 /* PerfilViewController.swift in Sources */,

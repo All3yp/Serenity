@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lbk-Ar-WI5">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -14,16 +15,42 @@
                     <view key="view" contentMode="scaleToFill" id="xJQ-XM-no7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FfU-xY-SZM">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="FfU-xY-SZM" firstAttribute="trailing" secondItem="ZWd-gR-uuy" secondAttribute="trailing" id="0Ea-Vu-vC6"/>
+                            <constraint firstItem="FfU-xY-SZM" firstAttribute="leading" secondItem="ZWd-gR-uuy" secondAttribute="leading" id="8Rf-F6-jiD"/>
+                            <constraint firstItem="FfU-xY-SZM" firstAttribute="top" secondItem="ZWd-gR-uuy" secondAttribute="top" id="Cyb-zS-Z9O"/>
+                            <constraint firstItem="FfU-xY-SZM" firstAttribute="bottom" secondItem="ZWd-gR-uuy" secondAttribute="bottom" id="aRU-bU-Fop"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ZWd-gR-uuy"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Música" image="music-note" id="IMx-HS-6AH"/>
                     <navigationItem key="navigationItem" title="Musicas" id="cq7-tD-67U"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableViewMusic" destination="FfU-xY-SZM" id="zbs-ur-zy0"/>
+                        <segue destination="ViS-wQ-TCN" kind="show" identifier="playsSegue" id="m3d-0j-VNU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b8Z-NV-TyI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1050.7246376811595" y="138.61607142857142"/>
+        </scene>
+        <!--ListagemMusicas-->
+        <scene sceneID="YkL-kg-Sfk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ListagemMusicas" id="ViS-wQ-TCN" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="cR5-xV-6Nl"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zhz-iX-oTy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1686" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nC8-JQ-SwE">

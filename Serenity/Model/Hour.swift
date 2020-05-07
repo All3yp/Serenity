@@ -46,4 +46,4 @@ class Hour {
 
 
 
-// dados separados das views, nao precisa de tela p existir, so precisa ser mostrado na tela quando for chamado
+
